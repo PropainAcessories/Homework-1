@@ -264,14 +264,20 @@ p {
     max-width: 150px;
 }
 
-/* Class selectors for the footing. */
+/*Sets properties for the footing. */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 .footer h2 {
     font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #0072bb;
+    color: #ffffff;
 }
