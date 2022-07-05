@@ -18,17 +18,25 @@ body {
     color: #ffffff;
 }
 
+/* Text Selector for Heading. */
 .header h1 {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color:#ffffff;
     display: inline-block;
     font-size: 48px;
 }
 
+/* Text Selector for a class within the heading. */
 .header h1 .seo {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
     color: #ffffff;
+    font-size: 48px;
 }
 
+/* Selects the text of the Links at the top of the page. */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,9 +47,15 @@ body {
 
 /* Selects the text and alignment for the Class of the List and List items within the header. */
 .header section ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float:right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     list-style-type: none;
 }
 
+/* Sets the display and alignment for the links at the top of the page. */
 .header section ul li {
     display: inline-block;
     text-align: inherit;
@@ -52,13 +66,19 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 p {
     font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-/*  later Class selectors in the document. */ 
+/*  Selects the margins and alignment for the main image on the top of the page. */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -68,12 +88,14 @@ p {
     background-position: center;
 }
 
+/* Selects the alignment and margins of the main content of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Selects the alignment and of the search engine optimization section of the page. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,7 +105,7 @@ p {
     color: #ffffff;
 }
 
-/* Image Selector */
+/* Selects the size of the image in the search engine optimization class. */
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -95,13 +117,16 @@ p {
     margin-right: 25px;
 }
 
-/* Text Selector. */
-
+/* Selects text properties for the search engine optimization heading. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
+/* Selects the alignment and font of the online reputation management class. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,16 +136,18 @@ p {
     color: #ffffff;
 }
 
-/* Image Selector. */
-
+/* Selects the size of the image for online reputation management. */
 .online-reputation-management img {
     max-height: 200px;
 }
 
-/* Text Selector. */
+/* Selects the text properties for the online reputation management heading. */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 /* Floats Selected text to the right */
@@ -129,6 +156,7 @@ p {
     margin-left: 25px;
 }
 
+/* Sets the margin and font for the social media marketing section. */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,17 +166,20 @@ p {
     color: #ffffff;
 }
 
-/* Image Selector. */
+/* Sets the max size for the social media marketing image. */
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/* Text Selector. */
+/* Sets text properties for the social media marketing heading. */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
-
+ /* Sets the margins colors and aloi */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -156,19 +187,25 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 .benefit-lead {
     margin-bottom: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
-/* Text Selector. */
+/* Selects the properties for the lead generation heading. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 /* Image Selector. */
@@ -178,37 +215,49 @@ p {
     max-width: 150px;
 }
 
+/* Selects margins and text properties for the Brand awareness section. */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-/* Text Selector. */
+/* Sets text properties for the brand awareness heading. */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-/* Image Selector. */
-
+/* Sets the alginment properties for the brand awareness image. */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Sets margin and text properties for the cost management section. */
 .benefit-cost {
     margin-bottom: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
-/* Text Selector */
+/* Sets the text and alignment properties for the cost management heading. */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-/* Image Selector. */
+/* Sets the properties for the cost management image. */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
